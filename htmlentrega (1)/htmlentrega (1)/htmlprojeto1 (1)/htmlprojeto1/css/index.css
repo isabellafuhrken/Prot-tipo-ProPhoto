@@ -1,0 +1,59 @@
+head,body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.empresa{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.borda{
+    border: 0.15rem solid black;
+    border-radius: 2rem;
+    text-align:center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+a{
+    margin-top: 2rem;
+    text-decoration: none;
+}
+.usuario{
+    align-items: flex-start;
+}
+.postagem{
+    width:35%;
+    height:35%;
+}
+.footer{
+    position: fixed;
+    bottom:0;
+}
+.timeline{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.alinhabotoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
