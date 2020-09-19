@@ -1,13 +1,32 @@
+html{
+    height: 100%;
+}
+
+body{
+    height:100%;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
 head,body{
     display:flex;
     flex-direction: column;
+    text-align:center;
     align-items: center;
 }
-header{
-    text-align:center;
+
+.seta{
+    position: fixed;
+    left:10px;
 }
+a{
+    margin-top: 1.5rem;
+    text-decoration: none;
+}
+
 h1{
-    display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
@@ -16,14 +35,13 @@ h1{
     font-weight: bold;
 }
 .linha{
-    display:flex;
     flex-direction: row;
     margin: 2rem;
 }
 
 h3{
     text-decoration: none;
-    text-align: center;
-    border: 0.15rem solid black;
+    border: 0.1rem solid black;
     border-radius: 2rem;
+    padding: 0.5rem;
 }
