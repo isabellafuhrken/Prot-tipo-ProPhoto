@@ -14,28 +14,21 @@ head,body{
 
 .empresa{
     font-size: 2em;
-    margin-block-start: 0.47em;
-    margin-block-end: 0.47em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin:0.5rem;
     padding: 0.5rem;
     font-weight: bold;
 }
 
 h2{
     font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding: 0.5 rem;
+    margin:0.8rem;
+    padding: 0.5rem;
     font-weight: bold;
 }
 .borda{
     border: 0.1rem solid black;
     border-radius: 1rem;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin: 1rem;
     padding: 0.5rem;
 }
 
@@ -50,11 +43,11 @@ a{
 
 .seta{
     position: fixed;
-    left:10px;
+    left:2rem;
 }
 .logo{
-    width: 60px;
-    height: 60px;
+    width: 15%;
+    height: 40%;
 }
 .usuario{
     padding: 0%;
@@ -74,4 +67,10 @@ a{
 .alinhabotoes{
     flex-direction: row;
     justify-content: center;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 5rem;
 }
