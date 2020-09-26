@@ -1,9 +1,19 @@
 html{
     height: 100%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 18, 19);
+    
 }
 
+main{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
 body{
     height:100%;
+    width: 100%;
+    
 }
 
 head,body{
@@ -20,6 +30,8 @@ head,body{
 
 header{
     display:flex;
+    font-family: 'Arimo', sans-serif;
+    font-size: 1.8rem;
     flex-direction: row;
     margin: 2rem;
 
@@ -29,43 +41,60 @@ header{
 }
 .conversa{
     display: grid;
+    border-radius: 1rem;
+    margin: 1rem;
+    width: fit-content;
+    padding: 0.3rem;
+
 }
 .chat1{
     grid-column: 1;
     grid-row: 1;
+    width: 90%;
     margin-bottom:0.5rem;
-    border: 0.05rem solid black;
+    border: 0.05rem;
     border-radius: 1.5rem;
     padding: 0.5rem;
+    background-color: #363636;
+    color:rgb(255, 255, 255);
     
 }
 .chat2{
     grid-column: 2;
     grid-row:2;
+    width: 90%;
     margin-bottom: 0.5rem;
-    border: 0.05rem solid black;
+    border: 0.05rem;
     border-radius: 1.5rem;
     padding: 0.5rem;
+    background-color: #363636;
+    color:rgb(255, 255, 255);
 }
 .chat3{
     grid-column: 1;
     grid-row: 3;
+    width: 90%;
     margin-bottom:0.5rem;
-    border: 0.05rem solid black;
+    border: 0.05rem ;
     border-radius: 1.5rem;
     padding: 0.5rem;
+    background-color: #363636;
+    color:rgb(255, 255, 255);
 
 }
 .chat4{
     grid-column: 2;
     grid-row: 4;
+    width: 90%;
     margin-bottom:2rem;
-    border: 0.05rem solid black;
+    border: 0.05rem;
     border-radius: 1.5rem;
     padding: 0.5rem;
+    background-color: #363636;
+    color:rgb(255, 255, 255);
 }
 .borda{
-    border: 0.05rem solid black;
+    border: 0.05rem;
     border-radius: 0.5rem;
     padding: 0.5rem;
     margin-bottom: 2rem;
@@ -76,4 +105,20 @@ header{
 .footer{
     position: fixed;
     bottom:0;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+
+.borda_enviar{
+    border: 0.1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color:#008dd5;
+    color:white;
+
 }

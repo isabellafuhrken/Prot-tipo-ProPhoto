@@ -1,9 +1,13 @@
 html{
     height: 100%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 18, 19);
 }
 
 body{
     height:100%;
+    width: 100%;
 }
 
 
@@ -15,15 +19,22 @@ head,body{
 }
 header{
     display: flex;
+    font-family: 'Arimo', sans-serif;
     flex-direction: row;
+    font-size: 2rem;
     margin:1rem;
 }
 h1{
     margin-top: 1rem;
 }
 main{
-    margin-top: 1rem;
-    display:flex;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    min-height: 70%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    justify-content: space-around;
 }
 
 .linha{
@@ -33,11 +44,25 @@ main{
 }
 .borda{
     margin:1rem;
-    border: 0.05rem solid black;
+    border: 0.05rem;
     border-radius: 1.5rem;
-    padding: 1rem;
+    padding: 0.5rem;
+    width: 7rem;
+    height: 2rem;
+    background-color: #363636;
+    color:white;
+
 }
 .footer{
     position: fixed;
-    bottom:0;
+    bottom:0.5rem;
+}
+
+a{
+    margin-top: 1.5rem;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+.cor_botao{
+    color:#008dd5;
 }
